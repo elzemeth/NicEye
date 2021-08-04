@@ -1,0 +1,971 @@
+@font-face {
+
+    font-family: FS ALBERT;
+
+    src: url(fsalbert/FSAlbert-Bold.otf);
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+@font-face {
+
+    font-family: FS ALBERT2;
+
+    src: url(fsalbert/FSAlbert-Italic.otf);
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+
+body {
+    background-color: aqua;
+    clear: both;
+}
+#sayfam {
+    margin-top: 0px;
+    margin-left: 0px;
+    width:1920px;
+    height: 3466px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin:auto auto;
+}
+#headerim {
+    margin-top: 0px;
+    margin-left: 0px;
+    width:1920px;
+    height: 100px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+#menu {
+    margin-top:42px;
+    margin-left:463px;
+    width:944px;
+    height:100px;
+}
+#menu ul {
+    list-style: none;
+    width:944px;
+    height:100px;
+    position:absolute;
+}
+#menu ul li a {
+    float: left;
+    text-decoration: none;
+    width:944px;
+    height:100px;
+    padding:20px;
+    
+}
+#menu ul li a.bir{
+top: 42px;
+left: 463px;
+width: 39px;
+height: 16px;
+text-align: left;
+font: normal normal bold 14px/37px FS Albert;
+letter-spacing: 0px;
+color: #232B76;
+opacity: 1;
+}
+#menu ul li a.iki{
+    top: 42px;
+    left: 541px;
+    width: 63px;
+    height: 16px;
+    text-align: left;
+    font: normal normal bold 14px/37px FS Albert;
+    letter-spacing: 0px;
+    color: #232B76;
+    opacity: 1;
+    }
+    #menu ul li a.uc{
+        top: 42px;
+        left: 643px;
+        width: 69px;
+        height: 16px;
+        text-align: left;
+        font: normal normal bold 14px/37px FS Albert;
+        letter-spacing: 0px;
+        color: #232B76;
+        opacity: 1;
+        }
+        #menu ul li a.dort{
+            top: 42px;
+            left: 751px;
+            width: 67px;
+            height: 16px;
+            text-align: left;
+            font: normal normal bold 14px/37px FS Albert;
+            letter-spacing: 0px;
+            color: #232B76;
+            opacity: 1;
+            }
+            #menu ul li a.bes{
+                top: 42px;
+                left: 857px;
+                width: 48px;
+                height: 16px;
+                text-align: left;
+                font: normal normal bold 14px/37px FS Albert;
+                letter-spacing: 0px;
+                color: #232B76;
+                opacity: 1;
+                }
+                #menu ul li a.alti{
+                    top: 42px;
+                    left: 944px;
+                    width: 150px;
+                    height: 16px;
+                    text-align: left;
+                    font: normal normal bold 14px/37px FS Albert;
+                    letter-spacing: 0px;
+                    color: #232B76;
+                    opacity: 1;
+                    float: left;
+                    }
+#logo {
+    position:absolute;
+    margin-top: 32px;
+    margin-left: 210px;
+    width: 143px;
+    height: 35px;
+    background: transparent url('img/Group 1478.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#articlem {
+margin-left: 0px;
+width: 1920px;
+height: 721px;
+background: transparent url('img/Group 1671.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+#asidem {
+margin: 0 auto;
+left: 277px;
+width: 1366px;
+height: 864px;
+opacity: 1;
+}
+.speakers {
+position: relative;
+width: 1366px;
+height: 864px;
+opacity: 1;
+}
+.dateaside {
+margin:auto;
+width: 615px;
+height: 50px;
+opacity: 1;
+}
+.dateaside1 {
+float: left;
+width: 290px;
+height: 50px;
+background: #232B76 0% 0% no-repeat padding-box;
+border: 2px solid #232B76;
+border-radius: 25px;
+opacity: 1;
+}
+.dateaside1 p {
+margin-top:8px;
+text-align: center;
+font: normal normal bold 17px/35px FS Albert;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.dateaside2 {
+float:right;
+height: 50px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 2px solid #232B76;
+border-radius: 25px;
+opacity: 1;
+width: 290px;
+text-align: center;
+}
+.dateaside2 p {
+margin-top:8px;
+text-align: center;
+font: normal normal bold 17px/35px FS Albert;
+letter-spacing: 0px;
+color: #232B76;
+opacity: 1;
+}
+.speakers h1{
+margin:auto;
+width: 711px;
+height: 45px;
+text-align: center;
+font: normal normal bold 40px/43px FS Albert;
+letter-spacing: 0px;
+color: #042164;
+opacity: 1;
+padding-top:63px;
+padding-bottom:30px;
+}
+.description {
+position:relative;
+margin:auto;
+margin-top:200px;
+width: 1920px;
+height: 371px;
+background: #F7F8FB 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.experience {
+margin:auto;
+margin-left: 0px;
+width: 1920px;
+height: 371px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+#footer {
+margin:auto;
+left: 0px;
+width: 1920px;
+height: 123px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.WEBINAR {
+position: absolute;
+margin-top: 220px;
+margin-left: 210px;
+width: 494px;
+height: 24px;
+text-align: left;
+font: normal normal bold 21px/37px FS Albert;
+letter-spacing: 0px;
+color: #042164;
+opacity: 1;
+}
+.EVENT {
+position: absolute;
+margin-top: 253px;
+margin-left: 210px;
+width: 846px;
+height: 107px;
+text-align: left;
+font: italic normal bold 40px/45px FS Albert;
+letter-spacing: -0.36px;
+color: #FFFFFF;
+opacity: 1;
+}
+.LOREM {
+position: absolute;
+margin-top: 372px;
+margin-left: 210px;
+width: 711px;
+height: 84px;
+text-align: left;
+font: normal normal bold 36px/43px FS Albert;
+letter-spacing: 0px;
+color: #232B76;
+opacity: 1;
+}
+.DATEM {
+position: absolute;
+margin-top: 482px;
+margin-left: 210px;
+width: 846px;
+height: 34px;
+text-align: left;
+font: normal normal normal 30px/57px FS Albert;
+letter-spacing: -0.27px;
+color: #FFFFFF;
+opacity: 1;
+}
+.box1 {
+position: absolute;
+margin-top: 576px;
+margin-left: 210px;
+width: 85px;
+height: 94px;
+background: #232B76 0% 0% no-repeat padding-box;
+opacity: 0.3;
+}
+.box2 {
+position: absolute;
+margin-top: 576px;
+margin-left: 307px;
+width: 85px;
+height: 94px;
+background: #232B76 0% 0% no-repeat padding-box;
+opacity: 0.3;
+}
+.box3 {
+position: absolute;
+margin-top: 576px;
+margin-left: 403px;
+width: 85px;
+height: 94px;
+background: #232B76 0% 0% no-repeat padding-box;
+opacity: 0.3;
+}
+.box4 {
+position: absolute;
+margin-top: 576px;
+margin-left: 500px;
+width: 85px;
+height: 94px;
+background: #232B76 0% 0% no-repeat padding-box;
+opacity: 0.3;
+}
+.countdown1 {
+position: absolute;
+margin-top: 580px;
+margin-left: 232px;
+width: 40px;
+height: 41px;
+text-align: center;
+font: normal normal normal 37px/58px FS Albert;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.countdown2 {
+position: absolute;
+margin-top: 626px;
+margin-left: 232px;
+width: 40px;
+height: 21px;
+text-align: center;
+font: normal normal normal 19px/55px FS Albert;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.countdown3 {
+position: absolute;
+margin-top: 580px;
+margin-left: 328px;
+width: 40px;
+height: 41px;
+text-align: center;
+font: normal normal normal 37px/58px FS Albert;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.countdown4 {
+position: absolute;    
+margin-top: 626px;
+margin-left: 326px;
+width: 46px;
+height: 21px;
+text-align: center;
+font: normal normal normal 19px/55px FS Albert;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.countdown5 {
+position: absolute;
+margin-top: 580px;
+margin-left: 425px;
+width: 40px;
+height: 41px;
+text-align: center;
+font: normal normal normal 37px/58px FS Albert;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.countdown6 {
+position: absolute;
+margin-top: 626px;
+margin-left: 412px;
+width: 64px;
+height: 21px;
+text-align: center;
+font: normal normal normal 19px/55px FS Albert;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.countdown7 {
+position: absolute;
+margin-top: 580px;
+margin-left: 522px;
+width: 40px;
+height: 41px;
+text-align: center;
+font: normal normal normal 37px/58px FS Albert;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.countdown8 {
+position: absolute;
+margin-top: 626px;
+margin-left: 508px;
+width: 66px;
+height: 21px;
+text-align: center;
+font: normal normal normal 19px/55px FS Albert;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+#girisyap {
+border-width:0px;
+border-radius: 35px;
+position: absolute;
+margin-top: 364px;
+margin-left: 1222px;
+width: 340px;
+height: 65px;
+background: transparent url('img/Group 1669.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+#uyeol {
+border-width:0px;
+border-radius: 35px;
+position: absolute;
+margin-top: 434px;
+margin-left: 1222px;
+width: 340px;
+height: 65px;
+background: transparent url('img/Group 1670.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.speakerslist {
+    margin-top:94px;
+    position:relative;
+    width: 1366px;
+    height: 670px;
+    opacity: 1;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding:10px;
+}
+.speaker1 {
+    margin-left:0px;
+    width: 280px;
+    height: 302px;
+    opacity: 1;
+}
+.speakerimage1 {
+    width:150px;
+    height:150px;
+    margin:auto;
+}
+.speakerimage1 img:hover {
+    position: absolute;
+    -ms-transform: scale(1.8); /* IE 9 */
+    -webkit-transform: scale(1.8); /* Safari 3-8 */
+    transform: scale(1.8); 
+    border:1px solid black;
+    border-radius:100%;
+}
+.speaker2 {
+    width: 280px;
+    height: 302px;
+    opacity: 1;
+}
+.speaker3 {
+    margin-top:0px;
+    width: 280px;
+    height: 302px;
+    opacity: 1;
+}
+.speaker4 {
+    margin-top:0px;
+    width: 280px;
+    height: 302px;
+    opacity: 1;
+}
+.speaker5 {
+    margin-top:0px;
+    width: 280px;
+    height: 302px;
+    opacity: 1;
+}
+.speaker6 {
+    margin-top:0px;
+    width: 280px;
+    height: 302px;
+    opacity: 1;
+}
+.speaker7 {
+    margin-top:0px;
+    width: 280px;
+    height: 302px;
+    opacity: 1;
+}
+.speaker8 {
+    margin-top:0px;
+    width: 280px;
+    height: 302px;
+    opacity: 1;
+}
+.speakerimage1 img{
+    width:150px;
+    height:150px;
+    
+}
+.dc1 {
+    text-align: center;
+    font: normal normal bold 21px/37px FS Albert;
+    letter-spacing: 0px;
+    color: #042164;
+    opacity: 1;
+}
+.dcdescription1 {
+    margin:0px auto;
+    text-align: center;
+    font: normal normal normal 15px/18px FS Albert;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+#doc1 {
+margin-left:20px;
+    width: 107px;
+height: 37px;
+background: #009FE3 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 20px #1490DF60;
+border-radius: 29px;
+border-width: 0px;
+opacity: 1;
+}
+#doc2 {
+    width: 145px;
+height: 37px;
+background: #042164 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 20px #1490DF60;
+border-radius: 29px;
+border-width:0px;
+opacity: 1;
+}
+.description h3 {
+    margin: 0px auto;
+    width:951px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #232B76;
+    opacity: 1;
+    font: normal normal bold 40px/43px FS Albert;
+    padding:25px;
+}
+.description p {
+    margin:0px auto;
+    width:951px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #232B76;
+    opacity: 1;
+    font: normal normal normal 31px/43px FS Albert;
+}
+.line1 {
+    margin: 0px auto;
+    width: 436px;
+    height:0px;
+    margin-top:35px;
+    transform: matrix(-1, 0, 0, -1, 0, 0);
+    border: 5px solid #042164;
+    opacity: 1;
+}
+.bigbox {
+    margin:0px auto;
+    width:1366px;
+    height:300px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top:72px;
+}
+.exper1{
+    float:left;
+    width:378px;
+    
+}
+.exper1img {
+    float: left;
+    margin-top:30px;
+    margin-left:-30px;
+    width: 64px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 58px;
+    position:absolute;
+}
+.exper1string {
+    float:right;
+}
+.exper2string {
+    float:right;
+}
+.exper3string {
+    float:right;
+}
+.exper1string h3 {
+    width: 314px;
+    text-align:left;
+    font: normal normal bold 30px/43px FS Albert;
+    letter-spacing: 0px;
+    color: #232B76;
+    opacity: 1;
+    height:34px;
+    margin-bottom:-5px;
+}
+.exper1string p {
+    width: 328px;
+    text-align: left;
+    font: normal normal normal 18px/28px FS Albert;
+    letter-spacing: 0px;
+    color: #666666;
+    opacity: 1;
+    height: 104px;
+}
+.exper2 {
+    float:left;
+    width:378px;
+}
+.exper2img {
+    width: 64px;
+    margin-top:30px;
+    margin-left:-30px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 58px;
+    position:absolute;
+    float: left;
+}
+.exper2string h3{
+    width: 314px;
+    text-align: left;
+    font: normal normal bold 30px/43px FS Albert;
+    letter-spacing: 0px;
+    color: #232B76;
+    opacity: 1;
+    height: 34px;
+    margin-bottom:-5px;
+}
+.exper2string p {
+    width: 328px;
+    text-align: left;
+    font: normal normal normal 18px/28px FS Albert;
+    letter-spacing: 0px;
+    color: #666666;
+    opacity: 1;
+    height: 104px;
+}
+.exper3 {
+    float:left;
+    width:378px;
+}
+.exper3img {
+    margin-top:30px;
+    margin-left:-30px;
+    width: 64px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 58px;
+    position:absolute;
+    float: left;
+}
+.exper3string h3{
+    width: 314px;
+    text-align: left;
+    font: normal normal bold 30px/43px FS Albert;
+    letter-spacing: 0px;
+    color: #232B76;
+    opacity: 1;
+    height: 34px;
+    margin-bottom:-5px;
+}
+.exper3string p {
+    width: 328px;
+    text-align: left;
+    font: normal normal normal 18px/28px FS Albert;
+    letter-spacing: 0px;
+    color: #666666;
+    opacity: 1;
+    height: 104px;
+}
+.events h3 {
+    margin:0px auto;
+    padding-top:75px;
+    text-align: center;
+    width: 711px;
+    text-align: center;
+    font: normal normal bold 40px/43px FS Albert;
+    letter-spacing: 0px;
+    color: #042164;
+    opacity: 1;
+    height: 45px;
+}
+.headdate1 {
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font: normal normal normal 20px/43px FS Albert;
+}
+.eventheader {
+width: 300px;
+height: 67px;
+background: #232B76 0% 0% no-repeat padding-box;
+border-radius: 10px 10px 0px 0px;
+opacity: 1;
+margin:0px auto;
+}
+.eventheader h2{
+padding:10px;
+text-align: center;
+font: normal normal normal 20px/43px FS Albert;
+letter-spacing: 0px;
+color:#FFFFFF;
+opacity: 1;
+width: 286px;
+height: 22px;
+}
+.eventparagraph p{
+    padding-top:10px;
+    margin:0px auto;
+width: 270px;
+height: 69px;
+text-align: center;
+font: normal normal normal 19px/24px FS Albert;
+letter-spacing: 0px;
+color: #042164;
+opacity: 1;
+}
+.line2 {
+    margin-top:20px;
+    margin-left:25px;
+    position: absolute;
+    border:0px solid black;
+    width:250px;
+    border-width: 1px;
+    opacity:0.2;
+    color:black;
+    height:0px;
+}
+.event1 h1 {
+width: 294px;
+height: 20px;
+text-align: center;
+font: normal normal normal 18px/26px FS Albert;
+letter-spacing: 0px;
+color: #009FE3;
+opacity: 1;
+margin-top:50px;
+margin-bottom:50px;
+}
+.event2 h1 {
+    width: 294px;
+height: 20px;
+text-align: center;
+font: normal normal normal 18px/26px FS Albert;
+letter-spacing: 0px;
+color: #009FE3;
+opacity: 1;
+margin-top:50px;
+margin-bottom:50px;
+}
+.event3 h1 {
+    width: 294px;
+height: 20px;
+text-align: center;
+font: normal normal normal 18px/26px FS Albert;
+letter-spacing: 0px;
+color: #009FE3;
+opacity: 1;
+margin-top:50px;
+margin-bottom:50px;
+}
+.event4 h1 {
+    width: 294px;
+height: 20px;
+text-align: center;
+font: normal normal normal 18px/26px FS Albert;
+letter-spacing: 0px;
+color: #009FE3;
+opacity: 1;
+margin-top:50px;
+margin-bottom:50px;
+}
+.event5 h1 {
+    width: 294px;
+height: 20px;
+text-align: center;
+font: normal normal normal 18px/26px FS Albert;
+letter-spacing: 0px;
+color: #009FE3;
+opacity: 1;
+margin-top:50px;
+margin-bottom:50px;
+}
+.event6 h1 {
+    width: 294px;
+height: 20px;
+text-align: center;
+font: normal normal normal 18px/26px FS Albert;
+letter-spacing: 0px;
+color: #009FE3;
+opacity: 1;
+margin-top:50px;
+margin-bottom:50px;
+}
+.event7 h1 {
+    width: 294px;
+height: 20px;
+text-align: center;
+font: normal normal normal 18px/26px FS Albert;
+letter-spacing: 0px;
+color: #009FE3;
+opacity: 1;
+margin-top:50px;
+margin-bottom:50px;
+}
+.event8 h1 {
+    width: 294px;
+height: 20px;
+text-align: center;
+font: normal normal normal 18px/26px FS Albert;
+letter-spacing: 0px;
+color: #009FE3;
+opacity: 1;
+margin-top:50px;
+margin-bottom:50px;
+}
+.event1 {
+height:335px;   
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+width:300px;
+}
+.event2 {
+height:335px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+width:300px;
+}
+.event3 {
+height:335px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+width:300px;
+}
+.event4 {
+height:335px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+width:300px;
+}
+.event5 {
+height:335px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+width:300px;
+}
+.event6 {
+height:335px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+width:300px;
+}
+.event7 {
+height:335px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+width:300px;
+}
+.event8 {
+height:335px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+width:300px;
+}
+a{
+	text-decoration:none;
+}
+.boxum{
+	width:300px;
+	height:335px;
+    background:none;
+	border-radius: 10px;
+	overflow: hidden;
+	margin: 25px;
+}
+@keyframes fade{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.slider{
+	width:1920px;
+	height: 665px;
+	display: flex;
+    background-color: #F7F8FB;
+	justify-content: center;
+	align-items: center;
+}
+.slider h3 {
+    position: absolute;
+    margin-bottom:600px;
+    width: 711px;
+height: 45px;
+text-align: center;
+font: normal normal bold 40px/43px FS Albert;
+letter-spacing: 0px;
+color: #042164;
+opacity: 1;
+}
+#buttonum {
+    width:280px;
+}
+#doc1 {
+    color:white;
+}
+#doc2 {
+    color:white;
+}
+.logomfooter {
+    margin-left:210px;
+    margin-top:30px;
+    width: 207px;
+height: 51px;
+background: transparent url('img/Group 1659.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.footernote {
+    margin-left:1440px;
+    margin-top:-30px;
+    width: 207px;
+height: 51px;
+opacity: 1;
+}
+#doc3 {
+    margin-left:95px;
+    margin-top:10px;
+width: 95px;
+height: 32px;
+background: #232B76 0% 0% no-repeat padding-box;
+border-radius: 16px;
+border-width: 0px;
+opacity: 1;
+font: normal normal bold 15px/15px FS Albert;
+letter-spacing: 0px;
+color: #FFFFFF;
+}
